@@ -1,6 +1,8 @@
-<h1>Amazing Online Store</h1>
-<div>Curious? Take a look at the site, any feedback is welcome! https://amazing-onlinestore.herokuapp.com/</div>
+## TOKOPAEDI || E-commerce Web using React JS.
+
 Final Project 2 : Studi Independen React & React Native for Front End Developer at Hacktiv8 by Kampus Merdeka.
+<div>Curious? Take a look at the site, any feedback is welcome! https://amazing-onlinestore.herokuapp.com/</div>
+
 
 <h3>:dart: - Goal of this project</h3>
 <ul>

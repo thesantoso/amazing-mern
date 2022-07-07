@@ -1,0 +1,113 @@
+.title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ordered-items__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ordered-item .alert-message {
+    margin: 0 !important;
+}
+
+.ordered-item {
+    border-radius: 0.5em;
+    -webkit-box-shadow: var(--bottom-shadow);
+    box-shadow: var(--bottom-shadow);
+    overflow: hidden;
+}
+
+.ordered-item__header {
+    padding: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #bbb;
+    background-color: hsl(0, 0%, 95%);
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    gap: 2em;
+}
+
+.order-info__section-title {
+    color: var(--faded-text);
+}
+
+.ordered-item__body {
+    padding: 0.5em 1em;
+}
+
+.ordered-item__footer {
+    border-top: 1px solid #bbb;
+
+    padding-top: 0.5em;
+    padding: 1em;
+}
+
+.delivery-info {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.order-card__body-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1em;
+}
+
+.order-card__body__image {
+    margin: auto 0;
+    height: 10em;
+    width: calc(35% - 1em);
+    aspect-ratio: 1/1;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.order-card__body__info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.order-card__body__info .product-name {
+    font-size: 1.25em;
+}
+
+.ordered-item__footer .alert-message {
+    margin-top: 1em !important;
+}

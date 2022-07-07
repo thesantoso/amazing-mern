@@ -1,0 +1,49 @@
+.user-info-section {
+    padding: 1em;
+    -webkit-box-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5;
+
+    -webkit-box-shadow: var(--bottom-shadow);
+
+    box-shadow: var(--bottom-shadow);
+    border-radius: 0.5em;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0.75em;
+
+    margin-top: 2em;
+}
+
+.user-info-section .title {
+    padding: 0;
+}
+
+.user-info-section .shipment-address {
+    width: 100%;
+}
+
+.user-info-section .shipment-button {
+    width: 100%;
+
+    margin-top: 0.5em;
+}
+
+.user-info-section .editing-shipment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0.5em;
+}

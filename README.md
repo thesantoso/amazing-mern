@@ -52,4 +52,3 @@ Final Project 2 : Studi Independen React & React Native for Front End Developer 
   </li>
 </ul>
 
-<h3>:warning: - Attention: all the options that involve the purchase or upload of one or more products on the site necessarily require an account</h3>
